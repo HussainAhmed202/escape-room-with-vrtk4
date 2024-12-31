@@ -5930,15 +5930,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1740210422}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.99985594, z: -0, w: -0.016973488}
-  m_LocalPosition: {x: 0.421, y: 0.329, z: 0.743}
+  m_LocalRotation: {x: -0, y: -0.7699351, z: -0, w: -0.63812226}
+  m_LocalPosition: {x: -0.112, y: 0.471, z: 1.093}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1610221896}
   - {fileID: 897145388}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -181.945, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -259.30402, z: 0}
 --- !u!1 &1755979038 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -247107887595092841, guid: 7bb1ac163d713a84883a9f36ec987ec3, type: 3}
@@ -6641,13 +6641,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949331674}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.712, z: 1.0070002}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0.726, z: 1.0070002}
   m_LocalScale: {x: 1.3500001, y: 0.9, z: 0.10000002}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 128484115}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!328 &1949331676
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -6668,7 +6668,7 @@ VideoPlayer:
   m_AspectRatio: 2
   m_DataSource: 0
   m_TimeUpdateMode: 2
-  m_PlaybackSpeed: 1
+  m_PlaybackSpeed: 0.5
   m_AudioOutputMode: 2
   m_TargetAudioSources: []
   m_DirectAudioVolumes: []
@@ -6678,7 +6678,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -6705,7 +6705,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2c2493b41b678d64aa3bc12ff0f4e2ee, type: 2}
+  - {fileID: 2100000, guid: 09c61bc8ce2060140a292656bc0be174, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
